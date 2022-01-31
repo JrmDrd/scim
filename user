@@ -1,27 +1,22 @@
 {
-  "schemas": [
-    "urn:ietf:params:scim:api:messages:2.0:ListResponse"
-  ],
-  "totalResults": 1,
-  "itemsPerPage": 20,
-  "startIndex": 1,
-  "Resources": [
-    {
-      "schemas": [
-        "urn:ietf:params:scim:schemas:core:2.0:User"
-      ],
-      "id": "0b1d561c-21ff-4092-beab-8154b17f82f2",
-      "active": true,
-      "name.formatted": "Test User",
-      "userName": "username",
-      "meta": { "resourceType":"User" },
-      "emails": [
-        {
-          "type": "work",
-          "value": "name@example.com",
-          "primary": true
-        }
-      ]
-    }
-  ]
+    "schemas": ["urn:ietf:params:scim:schemas:core:2.0:User"],
+    "id": "5d48a0a8e9f04aa38008",
+    "externalId": "58342554-38d6-4ec8-948c-50044d0a33fd",
+    "meta": {
+        "resourceType": "User",
+        "created": "2018-03-27T19:59:26.000Z",
+        "lastModified": "2018-03-27T19:59:26.000Z"
+    },
+    "userName": "Test_User_feed3ace-693c-4e5a-82e2-694be1b39934",
+    "name": {
+        "formatted": "givenName familyName",
+        "familyName": "familyName",
+        "givenName": "givenName",
+    },
+    "active": true,
+    "emails": [{
+        "value": "Test_User_22370c1a-9012-42b2-bf64-86099c2a1c22@testuser.com",
+        "type": "work",
+        "primary": true
+    }]
 }
