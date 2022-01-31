@@ -1,0 +1,27 @@
+{
+  "schemas": [
+    "urn:ietf:params:scim:api:messages:2.0:ListResponse"
+  ],
+  "totalResults": 1,
+  "itemsPerPage": 20,
+  "startIndex": 1,
+  "Resources": [
+    {
+      "schemas": [
+        "urn:ietf:params:scim:schemas:core:2.0:User"
+      ],
+      "id": "0b1d561c-21ff-4092-beab-8154b17f82f2",
+      "active": true,
+      "name.formatted": "Test User",
+      "userName": "username",
+      "meta": { "resourceType":"User" },
+      "emails": [
+        {
+          "type": "work",
+          "value": "name@example.com",
+          "primary": true
+        }
+      ]
+    }
+  ]
+}
